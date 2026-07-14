@@ -1,9 +1,10 @@
 {
   "cleanUrls": true,
-  "rewrites": [
+  "redirects": [
     {
       "source": "/((?!maintenance).*)",
-      "destination": "/maintenance.html"
+      "destination": "/maintenance.html",
+      "permanent": false
     }
   ]
 }
